@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/* banner poster section css */
+.banner-poster {
+    background-image: url('./pts-opt-tech_assesment_bg.jpeg');
+    background-size: cover;
+    padding: 50px 700px 110px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.banner-poster p {
+    line-height: 1.5;
+}
+
+.banner-msg {
+    background-color: #d6083b;
+    margin: 5px;
+    padding: 1px 10px 1px 10px;
+}
+
+/* banner date counter section css */
+.banner-counter {
+    background-color: #d6083b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-msg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.counters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.counter :first-child {
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    /* mobile banner poster section css */
+    .banner-poster {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .banner-msg {
+        background-color: #d6083b;
+        padding: 5px 70px 5px 70px;
+    }
+
+    .banner-poster p {
+        line-height: 2.5;
+    }
+
+    /* mobile banner date counter section css */
+    .banner-counter {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .counters {
+        font-size: larger;
+    }
+
+}
