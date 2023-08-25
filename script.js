@@ -1,7 +1,7 @@
 
 const countDown = () => {
     // promotion sales end time, May 5th, 2023 at 12:59am EST
-    const final_time = new Date("2023-05-05T00:59:00");
+    const final_time = new Date("2030-05-05T00:59:00");
     // current time
     const current_time = new Date();
     // calculate how many milliseconds left to
